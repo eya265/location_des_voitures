@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.PrintActivity">
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contrat à imprimer"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/nom_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom : "
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/prenom_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prénom : "
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/adresse_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adresse : "
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/telephone_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Téléphone : "
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/date_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date : "
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/duree_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Durée : "
+            android:padding="16dp" />
+
+        <Button
+            android:id="@+id/imprimer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imprimer"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
